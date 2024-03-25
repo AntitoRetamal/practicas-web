@@ -1,0 +1,103 @@
+:root {
+    /*definimos variables de tipo color*/
+    --color1: #01d7f4;
+    --color2: #ffdf03;
+    --color3: #fd7b03;
+    --color4: #ff0014;
+    --color5: #343434;
+    --color6: #b6b6b6;
+    --color7: #ffffff;
+}
+
+body {
+    height: 100vh;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*caja madre*/
+.caja {
+    /*ordenamos el color para que se vea uno debajo de otro*/
+    display: flex;
+}
+
+/*columna izquierda*/
+.columna20 {
+    /*llamamos a las variables definidas, para cambiaar el color de fondo*/
+    width: 20%;
+    /*ancho*/
+    background-color: var(--color5);
+    padding-top: 30px;
+
+    /*transition: background-color 0.3s ease;
+     Transición suave */
+}
+
+/* .columna20 li a:hover {
+    background-color: #1d1b1b;
+   Cambio de tono al pasar el ratón 
+} */
+
+.columna80 {
+    width: 80%;
+}
+
+.boton {
+    text-align: center;
+    padding: 50px 30px;
+    margin-bottom: 30px;
+
+}
+
+.caja25 {
+    height: 25vh;
+    padding: 30px;
+    color: var(--color7);
+}
+
+a {
+    color: var(--color7);
+    text-decoration: none;
+}
+
+
+.caja1 {
+    background-color: var(--color1);
+}
+
+.caja2 {
+    background-color: var(--color2);
+}
+
+.caja3 {
+    background-color: var(--color3);
+}
+
+.caja4 {
+    background-color: var(--color4);
+}
+
+.caja1:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.caja2:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.caja3:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.caja4:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.boton:hover a {
+
+    color: #7d7d7d;
+
+}

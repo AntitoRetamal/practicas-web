@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.header {
+    height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(247, 151, 199);
+}
+
+h1 {
+    font-size: 2.4rem;
+    padding: 40px 0 10px 0;
+}
+
+.header p {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.header img {
+    border: solid 10px #fff;
+    transform: translateY(15px);
+    width: 200px;
+    /* Reduje el tamaño de la imagen */
+    border-radius: 50%;
+    box-shadow: 0 0 3px 2px #555;
+}
+
+main {
+    height: 150vh;
+    background-color: #fff;
+}
+
+.seccion {
+    margin: auto;
+    padding: 85px 70px;
+    /* Ajusté el padding */
+    height: 260px;
+    /* Ajusté la altura */
+    width: 90%;
+    box-shadow: 1px 1px 10px #555;
+    text-align: center;
+}
+
+.icons {
+    padding: 10px 0 20px 0;
+    color: #a1a1a1;
+    font-size: 1.3rem;
+    /* Ajusté el tamaño de los iconos */
+}
+
+.icons i {
+    margin: 0 8px;
+    /* Ajusté el margen de los iconos */
+}
+
+.seccion article {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btns button {
+    padding: 8px 12px;
+    /* Ajusté el padding de los botones */
+    background-color: rgb(172, 66, 172);
+    border: none;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #555;
+}
+
+.experience h2 {
+    text-align: center;
+    color: #000000;
+    padding: 20px 0;
+}
+
+.container-experience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* Ajusté la separación */
+    padding: 50px;
+    /* Ajusté el padding */
+
+}
+
+.elements {
+    border: 1px solid #000000;
+   
+}
+
+.elements h3 {
+    color: #000000;
+    font-weight: 100;
+    padding: 20px;
+    background-color: rgb(247, 151, 199);
+}
+
+.extra-information {
+    padding: 20px;
+}
+
+.title,
+.date {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
